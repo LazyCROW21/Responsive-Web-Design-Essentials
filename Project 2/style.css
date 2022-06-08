@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+
+html {
+  height: 100%;
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  font-family: "Playfair Display", serif;
+  color: white;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards div {
+  min-height: 300px;
+  width: 30%;
+  text-align: center;
+}
+
+.card1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Project\ 2/bike1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/Project\ 2/Aston-Martin-Brough-Superior.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/Project\ 2/Harley-Davidson-Iron-883-Hero.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.herobox1 {
+  flex: 2;
+}
+
+.herobox2 {
+  flex: 1;
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  height: 70px;
+  width: auto;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-shadow: 2px 2px black;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-shadow: 2px 2px black;
+}
+
+p {
+  line-height: 1.5;
+  text-shadow: 1px 1px black;
+}
+
+i {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-size: 100px;
+}
