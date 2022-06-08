@@ -1,18 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap");
 
 html {
-  height: 100%;
+  background: rgb(238, 174, 202);
+  background: rgb(131, 58, 180);
+  background: linear-gradient(207deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
 
 body {
-  background: rgb(238, 174, 202);
-  background: radial-gradient(
-    circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
-  );
+  background-image: url(./bbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1024px;
   font-family: "Playfair Display", serif;
   color: white;
+  padding-bottom: 3rem;
 }
 
 .container {
@@ -25,6 +26,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-top: 1rem;
+  border-bottom: 1px solid white;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 main {
@@ -42,6 +46,12 @@ main {
   min-height: 300px;
   width: 30%;
   text-align: center;
+  box-shadow: 2px 4px 4px black;
+}
+
+.cards div a {
+  color: white;
+  text-decoration: none;
 }
 
 .card1 {
@@ -76,7 +86,7 @@ img {
 }
 
 .logo {
-  height: 70px;
+  height: 120px;
   width: auto;
 }
 
@@ -103,4 +113,77 @@ i {
   margin-top: 32px;
   margin-bottom: 32px;
   font-size: 100px;
+}
+
+.nav-link {
+  display: inline;
+  margin-left: 1rem;
+  border: 2px solid white;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  position: relative;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: absolute;
+  display: none;
+  padding-top: 10px;
+}
+
+.dropdown .nav-link {
+  width: 100%;
+  padding-top: 20px;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.nav-link:hover .dropdown {
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  top: 100%;
+  left: 0;
+}
+
+.book-online {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  color: (148, 187, 233, 1);
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  box-shadow: 2px 2px 2px;
+}
+
+.book-online:hover {
+  background-color: aqua;
+  transition: all 100ms ease-out;
+}
+
+.testimonial {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tbox {
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  width: 45%;
+  border: 2px solid white;
+  min-height: 250px;
+  padding: 2rem;
+}
+
+.tbox p:last-child {
+  font-style: italic;
 }
