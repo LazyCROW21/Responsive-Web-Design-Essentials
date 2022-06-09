@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(0,244,144);
+    background: linear-gradient(135deg, rgba(0,244,144,1) 0%, rgba(0,187,201,1) 100%);
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.512);
+}
+
+h1, h2, h3 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.btn-outline-white {
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-outline-white:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.155);
+}
