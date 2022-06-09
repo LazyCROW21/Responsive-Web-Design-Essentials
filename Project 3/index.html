@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="branding">
+                    <span>
+                        <span class="bold-brand">DANIEL WALTER SCOTT</span>
+                        - LOGO DESIGN
+                    </span>
+                    <button class="menu-btn" id="mBtn">
+                        <img src="./bars-solid.svg" height="24" width="24" alt="Menu" />
+                    </button>
+                </div>
+                <nav id="nav">
+                    <a href="#" class="link">ABOUT</a>
+                    <a href="#" class="link">PRICING</a>
+                    <a href="#" class="link">CONTACT</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="box-wrapper">
+                <div class="box"><img src="./img/159-500x500.jpg" alt="img 404" />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, error.</p>
+                </div>
+                <div class="box"><img src="./img/38-500x500.jpg" alt="img 404" />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, error.</p>
+                </div>
+                <div class="box"><img src="./img/276-500x500.jpg" alt="img 404" />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, error.</p>
+                </div>
+                <div class="box"><img src="./img/551-500x500.jpg" alt="img 404" />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, error.</p>
+                </div>
+                <div class="box"><img src="./img/793-500x500.jpg" alt="img 404" />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, error.</p>
+                </div>
+                <div class="box"><img src="./img/877-500x500.jpg" alt="img 404" />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, error.</p>
+                </div>
+                <div class="box"><img src="./img/909-500x500.jpg" alt="img 404" />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, error.</p>
+                </div>
+                <div class="box"><img src="./img/965-500x500.jpg" alt="img 404" />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, error.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+    $('document').ready(() => {
+        $('#mBtn').click(() => {
+            $('#nav').slideToggle(200);
+        })
+    });
+</script>
+</html>
