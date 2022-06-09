@@ -161,6 +161,7 @@ i {
   border-radius: 0.25rem;
   text-decoration: none;
   box-shadow: 2px 2px 2px;
+  border: none;
 }
 
 .book-online:hover {
@@ -186,4 +187,51 @@ i {
 
 .tbox p:last-child {
   font-style: italic;
+}
+
+/* Contact us page */
+
+.input-wrapper {
+  margin-bottom: 1rem;
+}
+
+input {
+  border: 1px solid grey;
+  outline-color: lightcoral;
+  outline-offset: 2px;
+}
+
+input[type="text"], input[type="email"] {
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+textarea {
+  padding: 0.25rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+  outline-color: lightcoral;
+  outline-offset: 2px;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.chk-wrapper label {
+  padding-left: 1rem;
+  display: inline;
+}
+
+select {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+  outline-color: lightcoral;
+  outline-offset: 2px;
+  width: 100%;
+  max-width: 200px;
 }
